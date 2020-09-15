@@ -1,0 +1,62 @@
+.navbar {
+  background-color: black;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1db954;
+}
+
+i {
+  color: #1db954;
+}
+
+h3,
+h4,
+h1 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.row img {
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 20px black;
+}
+
+.row p {
+  margin-top: 5%;
+}
+
+iframe {
+  margin: 20px;
+}
+
+.minhas-musicas {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("../img/2.png");
+  background-size: cover;
+}
+
+.bandafavorita {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("../img/music2.png");
+  background-size: cover;
+}
+
+.bandafavorita h5,
+p {
+  color: white;
+}
+
+.padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bg-footer {
+  background-color: black;
+  color: white;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: #1db954;
+}

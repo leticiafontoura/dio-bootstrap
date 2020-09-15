@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="/bootstrap-4.5.2-dist/bootstrap/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a href="#" class="navbar-brand"><i class="fas fa-music"></i></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="#minhas-musicas" class="nav-link">Músicas favoritas</a>
+          </li>
+          <li class="nav-item">
+            <a href="#minha-banda" class="nav-link">Bandas favoritas</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="minhas-musicas">
+      <div class="container-fluid text-center minhas-musicas padding">
+        <!-- container-fluid pega a página inteira sem margin-->
+        <h3>Músicas favoritas</h3>
+        <h4>
+          Sabe aquelas músicas que você não cansa nunca de escutar? Saca só
+          quais são as minhas "on repeat" do Spotify:
+        </h4>
+        <iframe
+          src="https://open.spotify.com/embed/playlist/37i9dQZF1Epui5ri0kc3pH"
+          width="300"
+          height="380"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+      </div>
+    </section>
+    <section id="minha-banda">
+      <div class="container-fluid text-center bandafavorita padding">
+        <!-- container-fluid pega a página inteira sem margin-->
+        <h3>Bandas favoritas</h3>
+        <div class="row">
+          <div class="col-sm">
+            <h5>Linkin Park</h5>
+            <img src="img/lp.png" alt="" />
+            <p><strong>CD favorito:</strong> A Thousand Suns</p>
+          </div>
+          <div class="col-sm">
+            <h5>Slipknot</h5>
+            <img src="img/slip.png" alt="" />
+            <p><strong>CD favorito:</strong> We Are Not Your Kind</p>
+          </div>
+          <div class="col-sm">
+            <h5>Nine Inch Nails</h5>
+            <img src="img/nin.png" alt="" />
+            <p><strong>CD favorito:</strong> The Fragile</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container-fluid bg-footer text-center padding">
+      <p>
+        Desenvolvido por Letícia Fontoura como parte integrante do curso HTML
+        Web Developer da Digital Innovation One.
+      </p>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/d089c34a0e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
